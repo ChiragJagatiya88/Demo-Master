@@ -76,6 +76,24 @@
         "padding_mob": "20px 20px"
       }
     },
+    "section_base_hQYzEb": {
+      "type": "section_base",
+      "custom_css": [
+        "{text-align: center;}"
+      ],
+      "name": "IF Demo",
+      "settings": {
+        "enable_custom_class": false,
+        "section_class": "",
+        "enable_container": true,
+        "sec_title": "Demo Master",
+        "section_bg": "#45c0b6",
+        "section_gradient_bg": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(168, 255, 251, 1) 100%)",
+        "enable_custom_padding": true,
+        "padding_desk": "20px 20px",
+        "padding_mob": "20px 20px"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -183,6 +201,7 @@
     }
   },
   "order": [
+    "section_base_hQYzEb",
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
     "section_base_dhn3RD",
     "featured_collection",

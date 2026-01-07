@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b": {
@@ -5,7 +14,10 @@
       "blocks": {
         "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0": {
           "type": "heading",
-          "settings": { "heading": "Generated test data", "heading_size": "h1" }
+          "settings": {
+            "heading": "Generated test data",
+            "heading_size": "h1"
+          }
         },
         "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1": {
           "type": "text",
@@ -46,6 +58,56 @@
         "show_text_below": true
       }
     },
+    "section_base_Dp4h7d": {
+      "type": "section_base",
+      "blocks": {
+        "item_W6ghyj": {
+          "type": "item",
+          "settings": {
+            "block_title": "DK Product 1"
+          }
+        },
+        "item_jFMGPM": {
+          "type": "item",
+          "settings": {
+            "block_title": "DK Product 2"
+          }
+        },
+        "item_LiRnne": {
+          "type": "item",
+          "settings": {
+            "block_title": "DK Product 3"
+          }
+        },
+        "item_ANibGQ": {
+          "type": "item",
+          "settings": {
+            "block_title": "DK Product 4"
+          }
+        }
+      },
+      "block_order": [
+        "item_W6ghyj",
+        "item_jFMGPM",
+        "item_LiRnne",
+        "item_ANibGQ"
+      ],
+      "custom_css": [
+        "{text-align: center;}"
+      ],
+      "name": "IF Demo",
+      "settings": {
+        "enable_custom_class": false,
+        "section_class": "",
+        "enable_container": true,
+        "sec_title": "DK Theme Bestsellers Products",
+        "section_bg": "#d1fffa",
+        "section_gradient_bg": "",
+        "enable_custom_padding": false,
+        "padding_desk": "20px 20px",
+        "padding_mob": "20px 20px"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -78,7 +140,10 @@
       "blocks": {
         "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-0": {
           "type": "heading",
-          "settings": { "heading": "Stay hydrated", "heading_size": "h1" }
+          "settings": {
+            "heading": "Stay hydrated",
+            "heading_size": "h1"
+          }
         },
         "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-1": {
           "type": "text",
@@ -120,11 +185,15 @@
       "blocks": {
         "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-0": {
           "type": "featured_collection",
-          "settings": { "collection": "hydrogen" }
+          "settings": {
+            "collection": "hydrogen"
+          }
         },
         "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-1": {
           "type": "featured_collection",
-          "settings": { "collection": "automated-collection" }
+          "settings": {
+            "collection": "automated-collection"
+          }
         }
       },
       "block_order": [
@@ -147,6 +216,7 @@
   },
   "order": [
     "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
+    "section_base_Dp4h7d",
     "featured_collection",
     "f1552b18-6017-4231-810d-74e61da22c37",
     "38cdf60f-e431-43b5-aac3-7e6215447d67"

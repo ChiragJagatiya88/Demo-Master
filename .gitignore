@@ -6,3 +6,4 @@ dist/
 build/
 /config/settings_data.json
 templates/
+/templates/

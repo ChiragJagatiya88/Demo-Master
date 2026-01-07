@@ -1,0 +1,3 @@
+templates/** merge=ours
+config/settings_data.json merge=ours
+locales/** merge=ours

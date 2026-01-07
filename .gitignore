@@ -1,8 +1,10 @@
 node_modules/
 .env
 .DS_Store
-.vscode/
 dist/
+temp_auto_push.bat
 build/
 /config/settings_data.json
-/templates/
+templates/
+/templates/.gitignore
+branch_structure.json

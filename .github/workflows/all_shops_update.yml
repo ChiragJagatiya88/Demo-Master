@@ -1,0 +1,53 @@
+name: Merge to store themes
+ 
+on:
+ push:
+   branches:
+     - main
+   paths-ignore:
+     - 'config/*.json'
+     - 'styles/**'
+     - 'scripts/**'
+     - 'custom/**'
+     - 'package-lock.json'
+     - 'package.json'
+     - '.github/**'
+     - 'snippets/pandectes-rules.liquid'
+ 
+jobs:
+ merge-all-stores:
+  name: Merge main into live/* after a PR is merged
+  runs-on: ubuntu-latest
+  steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        ref: main
+    - name: Push changes to live/DEV
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git fetch origin live/DEV
+        git checkout live/DEV
+        git fetch origin master
+        git merge -X theirs main --allow-unrelated-histories
+        git push -u origin live/DEV --force
+    - name: Push changes to live/DK
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git fetch origin live/DK
+        git checkout live/DK
+        git fetch origin master
+        git merge -X theirs main --allow-unrelated-histories
+        git push -u origin live/DK --force
+    - name: Push changes to live/NO
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git fetch origin live/NO
+        git checkout live/NO
+        git fetch origin master
+        git merge -X theirs main --allow-unrelated-histories
+        git push -u origin live/NO --force
+    

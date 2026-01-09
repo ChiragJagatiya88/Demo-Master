@@ -234,6 +234,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "176794907351657604": {
+      "type": "apps",
+      "blocks": {
+        "cj_custom_app_form_builder_VrzFRj": {
+          "type": "shopify://apps/cj-custom-app/blocks/form-builder/019ba1c8-7699-7a95-98f3-f70dc0a5ea01",
+          "settings": {
+            "enabled": true
+          }
+        }
+      },
+      "block_order": [
+        "cj_custom_app_form_builder_VrzFRj"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -244,6 +261,7 @@
     "section_base_n86AYQ",
     "section_base_7nLA8H",
     "f1552b18-6017-4231-810d-74e61da22c37",
-    "38cdf60f-e431-43b5-aac3-7e6215447d67"
+    "38cdf60f-e431-43b5-aac3-7e6215447d67",
+    "176794907351657604"
   ]
 }

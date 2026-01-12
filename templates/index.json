@@ -12,8 +12,8 @@
     "176794907351657604": {
       "type": "apps",
       "blocks": {
-        "cj_custom_app_phone_number_collection_zWL7nj": {
-          "type": "shopify://apps/cj-custom-app/blocks/phone-number-collection/019bb09b-d203-7fc1-baf3-4d1a0f922ff0",
+        "cj_custom_app_phone_number_collection_mfUdJg": {
+          "type": "shopify://apps/cj-custom-app/blocks/phone-number-collection/019bb13d-82fe-7b92-b310-bed5a3d33d2a",
           "settings": {
             "enabled": true,
             "label": "Phone Number",
@@ -22,12 +22,12 @@
             "required": true,
             "alignment": "left",
             "success_message": "Thank you! Your phone number has been submitted.",
-            "submission_url": ""
+            "submission_url": "https://ifdev.myshopify.com/admin/oauth/redirect_from_cli?client_id=fee7f97e127ef6c95264a4ca462717f1"
           }
         }
       },
       "block_order": [
-        "cj_custom_app_phone_number_collection_zWL7nj"
+        "cj_custom_app_phone_number_collection_mfUdJg"
       ],
       "settings": {
         "include_margins": true

@@ -139,24 +139,6 @@
         "padding_mob": "20px 20px"
       }
     },
-    "section_base_7nLA8H": {
-      "type": "section_base",
-      "custom_css": [
-        "{text-align: center;}"
-      ],
-      "name": "IF Demo",
-      "settings": {
-        "enable_custom_class": false,
-        "section_class": "",
-        "enable_container": true,
-        "sec_title": "Demo Master",
-        "section_bg": "#45c0b6",
-        "section_gradient_bg": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(168, 255, 251, 1) 100%)",
-        "enable_custom_padding": true,
-        "padding_desk": "20px 20px",
-        "padding_mob": "20px 20px"
-      }
-    },
     "f1552b18-6017-4231-810d-74e61da22c37": {
       "type": "image-with-text",
       "blocks": {
@@ -200,6 +182,42 @@
         "mobile_content_alignment": "left",
         "padding_top": 60,
         "padding_bottom": 60
+      }
+    },
+    "section_base_39NPbk": {
+      "type": "section_base",
+      "custom_css": [
+        "{text-align: center;}"
+      ],
+      "name": "IF Demo",
+      "settings": {
+        "enable_custom_class": false,
+        "section_class": "",
+        "enable_container": true,
+        "sec_title": "Demo Master",
+        "section_bg": "#45c0b6",
+        "section_gradient_bg": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(168, 255, 251, 1) 100%)",
+        "enable_custom_padding": true,
+        "padding_desk": "20px 20px",
+        "padding_mob": "20px 20px"
+      }
+    },
+    "section_base_G9JPgB": {
+      "type": "section_base",
+      "custom_css": [
+        "{text-align: center;}"
+      ],
+      "name": "IF Demo",
+      "settings": {
+        "enable_custom_class": false,
+        "section_class": "",
+        "enable_container": true,
+        "sec_title": "Demo Master",
+        "section_bg": "#45c0b6",
+        "section_gradient_bg": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(168, 255, 251, 1) 100%)",
+        "enable_custom_padding": true,
+        "padding_desk": "20px 20px",
+        "padding_mob": "20px 20px"
       }
     },
     "38cdf60f-e431-43b5-aac3-7e6215447d67": {
@@ -259,9 +277,10 @@
     "section_base_dhn3RD",
     "featured_collection",
     "section_base_n86AYQ",
-    "section_base_7nLA8H",
     "f1552b18-6017-4231-810d-74e61da22c37",
+    "section_base_39NPbk",
     "38cdf60f-e431-43b5-aac3-7e6215447d67",
+    "section_base_G9JPgB",
     "176794907351657604"
   ]
 }

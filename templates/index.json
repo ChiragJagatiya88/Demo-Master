@@ -12,12 +12,6 @@
     "176794907351657604": {
       "type": "apps",
       "blocks": {
-        "cj_custom_app_form_builder_dWLhBU": {
-          "type": "shopify://apps/cj-custom-app/blocks/form-builder/019bb09b-d203-7fc1-baf3-4d1a0f922ff0",
-          "settings": {
-            "enabled": true
-          }
-        },
         "cj_custom_app_phone_number_collection_zWL7nj": {
           "type": "shopify://apps/cj-custom-app/blocks/phone-number-collection/019bb09b-d203-7fc1-baf3-4d1a0f922ff0",
           "settings": {
@@ -30,19 +24,10 @@
             "success_message": "Thank you! Your phone number has been submitted.",
             "submission_url": ""
           }
-        },
-        "cj_custom_app_star_rating_pjxwa8": {
-          "type": "shopify://apps/cj-custom-app/blocks/star_rating/019bb09b-d203-7fc1-baf3-4d1a0f922ff0",
-          "settings": {
-            "product": "the-collection-snowboard-hydrogen",
-            "colour": "#ffe400"
-          }
         }
       },
       "block_order": [
-        "cj_custom_app_form_builder_dWLhBU",
-        "cj_custom_app_phone_number_collection_zWL7nj",
-        "cj_custom_app_star_rating_pjxwa8"
+        "cj_custom_app_phone_number_collection_zWL7nj"
       ],
       "settings": {
         "include_margins": true

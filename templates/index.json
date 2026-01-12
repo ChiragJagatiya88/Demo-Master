@@ -22,7 +22,7 @@
             "required": true,
             "alignment": "left",
             "success_message": "Thank you! Your phone number has been submitted.",
-            "submission_url": "https://ifdev.myshopify.com/admin/oauth/redirect_from_cli?client_id=fee7f97e127ef6c95264a4ca462717f1"
+            "submission_url": ""
           }
         }
       },

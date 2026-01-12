@@ -202,24 +202,6 @@
         "padding_mob": "20px 20px"
       }
     },
-    "section_base_G9JPgB": {
-      "type": "section_base",
-      "custom_css": [
-        "{text-align: center;}"
-      ],
-      "name": "IF Demo",
-      "settings": {
-        "enable_custom_class": false,
-        "section_class": "",
-        "enable_container": true,
-        "sec_title": "Demo Master",
-        "section_bg": "#45c0b6",
-        "section_gradient_bg": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(168, 255, 251, 1) 100%)",
-        "enable_custom_padding": true,
-        "padding_desk": "20px 20px",
-        "padding_mob": "20px 20px"
-      }
-    },
     "38cdf60f-e431-43b5-aac3-7e6215447d67": {
       "type": "collection-list",
       "blocks": {
@@ -253,10 +235,28 @@
         "padding_bottom": 36
       }
     },
+    "section_base_G9JPgB": {
+      "type": "section_base",
+      "custom_css": [
+        "{text-align: center;}"
+      ],
+      "name": "IF Demo",
+      "settings": {
+        "enable_custom_class": false,
+        "section_class": "",
+        "enable_container": true,
+        "sec_title": "Demo Master",
+        "section_bg": "#45c0b6",
+        "section_gradient_bg": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(168, 255, 251, 1) 100%)",
+        "enable_custom_padding": true,
+        "padding_desk": "20px 20px",
+        "padding_mob": "20px 20px"
+      }
+    },
     "176794907351657604": {
       "type": "apps",
       "blocks": {
-        "cj_custom_app_form_builder_qajN6g": {
+        "cj_custom_app_form_builder_p9eHwd": {
           "type": "shopify://apps/cj-custom-app/blocks/form-builder/019ba29d-f5ed-7ee9-ae96-580f1183f56c",
           "settings": {
             "enabled": true
@@ -264,7 +264,25 @@
         }
       },
       "block_order": [
-        "cj_custom_app_form_builder_qajN6g"
+        "cj_custom_app_form_builder_p9eHwd"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1768193333e3ee5c10": {
+      "type": "apps",
+      "blocks": {
+        "cj_custom_app_star_rating_7kFy4c": {
+          "type": "shopify://apps/cj-custom-app/blocks/star_rating/019ba29d-f5ed-7ee9-ae96-580f1183f56c",
+          "settings": {
+            "product": "the-collection-snowboard-hydrogen",
+            "colour": "#ffe400"
+          }
+        }
+      },
+      "block_order": [
+        "cj_custom_app_star_rating_7kFy4c"
       ],
       "settings": {
         "include_margins": true
@@ -281,6 +299,7 @@
     "section_base_39NPbk",
     "38cdf60f-e431-43b5-aac3-7e6215447d67",
     "section_base_G9JPgB",
-    "176794907351657604"
+    "176794907351657604",
+    "1768193333e3ee5c10"
   ]
 }
